@@ -51,7 +51,7 @@ It depends on the following market data:
 The price of an asset evolves in discrete time steps. At each step, it can either go up or down by defined factors, starting from an initial price \( S_0 \).
 
 - **Price at step \( n \) and node \( i \)**:
-\[ S(n, i) = S_0 (1 + U)^i (1 + D)^{n-i} \]
+$S(n, i) = S_0 \cdot (1 + U)^i \cdot (1 + D)^{n - i}$
 
 **2. Implementation**
 
@@ -93,15 +93,17 @@ This section extends our binomial model to include the pricing of American optio
 
 1. **At Expiration**:
    - At expiration date \( N \):
-     \[
-     H(N, i) = h(S(N, i))
-     \]
+  $H(N, i) = h(S(N, i))$
+
    
 2. **Backward Induction**:
    - For \( n < N \):
-     \[
-     H(n, i) = \max \left\{ qH(n + 1, i + 1) + (1 - q) H(n + 1, i)(1 + R), \, h(S(n, i)) \right\}
-     \]
+   
+$$
+H(n, i) = \max \left( 
+\frac{q H(n + 1, i + 1) + (1 - q) H(n + 1, i)}{1 + R} \, h(S(n, i))
+\right)
+$$
 
 3. **Early Exercise Policy**:
    - Determine if the option should be exercised at each node and store this information in a `BinaryTree<bool>` structure.
