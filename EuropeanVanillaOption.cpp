@@ -1,22 +1,22 @@
 #include "EuropeanVanillaOption.h"
 #include <stdexcept>
+#include <iostream> 
 
 EuropeanVanillaOption::EuropeanVanillaOption(double expiry, double strike) : Option(expiry) {
-	if (expiry < 0)
-		throw std::invalid_argument("Expiry must be positive");
-	if (strike < 0)
-		throw std::invalid_argument("Strike must be positive");
+    try {
+        if (expiry < 0)
+            throw std::invalid_argument("Expiry must be positive");
+        if (strike < 0)
+            throw std::invalid_argument("Strike must be positive");
+    }
+    catch (const std::invalid_argument& e) {
+        std::cerr << "Erreur : " << e.what() << std::endl;
+        std::abort();
+    }
 
 	_strike = strike;
 }
 
 optionType EuropeanVanillaOption::GetOptionType() const {
 	return _type;
-}
-
-double EuropeanVanillaOption::payoff(double spot) const {
-	if (_type == optionType::Call)
-		return std::max(spot - _strike, 0.0);
-	else
-		return std::max(_strike - spot, 0.0);
 }

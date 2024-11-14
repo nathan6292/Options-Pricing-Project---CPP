@@ -5,14 +5,17 @@
 
 class BlackScholesPricer
 {
-	Option* _option;
+private:
+	EuropeanVanillaOption* _option_vanilla;
+	EuropeanDigitalOption* _option_digital;
 	double _asset_price;
 	double _interest_rate;
 	double _volatility;
 
 
 public:
-	BlackScholesPricer(Option*, double, double, double);
+	BlackScholesPricer(EuropeanVanillaOption*, double, double, double);
+	BlackScholesPricer(EuropeanDigitalOption*, double, double, double);
 	double operator()() const;
 	double delta() const;
 };

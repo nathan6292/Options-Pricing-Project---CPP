@@ -223,12 +223,12 @@ int main() {
     std::vector<double> ci;
     BlackScholesMCPricer* pricer;
 
-    for (auto& opt_ptr : opt_ptrs) {
+   for (auto& opt_ptr : opt_ptrs) {
         pricer = new BlackScholesMCPricer(opt_ptr, S0, r, sigma);
-        //do {
-            pricer->generate(100000);
-            //ci = pricer->confidenceInterval();
-        //} while (ci[1] - ci[0] > 1e-2);
+        do {
+            pricer->generate(10);
+            ci = pricer->confidenceInterval();
+        } while (ci[1] - ci[0] > 1e-2);
         std::cout << "nb samples: " << pricer->getNbPaths() << std::endl;
         std::cout << "price: " << (*pricer)() << std::endl << std::endl;
         delete pricer;

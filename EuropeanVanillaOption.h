@@ -4,15 +4,12 @@
 
 class EuropeanVanillaOption : public Option
 {
-
-private: 
-	double _strike;
 protected:
 	optionType _type;
+	double _strike;
 public: 
 	EuropeanVanillaOption(double, double);
 	virtual optionType GetOptionType() const = 0;	
-	double payoff(double) const;
 	friend class BlackScholesPricer;
 };
 

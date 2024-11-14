@@ -5,5 +5,6 @@ class PutOption : public EuropeanVanillaOption
 public:
 	PutOption(double, double);
 	optionType GetOptionType() const override;
+	double payoff(double) const override;
 };
 
