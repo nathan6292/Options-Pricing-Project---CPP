@@ -4,14 +4,21 @@
 #include <iostream>
 #include "BinaryTree.h"
 #include "CallOption.h"
+#include "EuropeanDigitalCallOption.h"
+#include "EuropeanDigitalPutOption.h"
 #include "PutOption.h"
 #include "BlackScholesPricer.h"
 #include "CRRPricer.h"
+#include "AsianOption.h"
+#include "AsianCallOption.h"
+#include "BlackScholesMCPricer.h"
+#include "AmericanOption.h"
+#include "AmericanCallOption.h"
+#include <stdexcept>
+
 int main()
 {
-    BinaryTree<double> tree;
-
-    tree.setDepth(3);  // Set depth of the tree
+     // Set depth of the tree
 
     /* Set values for the nodes
     tree.setNode(0, 0, 100.0);
@@ -29,50 +36,58 @@ int main()
     tree.display();
     */
 
-   EuropeanVanillaOption* callOption = new CallOption(.1,100);
-
+  //std::vector<double> observationDates = { 0.25, 0.5, 0.75, 1.0 };
+  //EuropeanVanillaOption* call = new CallOption(5, 101);
+    EuropeanVanillaOption* call = new CallOption(5, 101);
+   
     // Paramètres pour le modèle de Black-Scholes
-    double assetPrice = 110.0;  // Prix de l'actif sous-jacent
-    double interestRate = 0.05;  // Taux d'intérêt
-    double volatility = 0.6;     // Volatilité
+    double assetPrice = 100;  // Prix de l'actif sous-jacent
+    double interestRate = 0.01;  // Taux d'intérêt
+    double volatility = 0.1;     // Volatilité
+    /*
+    BlackScholesMCPricer pricer(call, assetPrice, interestRate, volatility); 
+    pricer.generate(5000000);
+    double estimated_price = pricer();
+    std::vector<double> conf_interval = pricer.confidenceInterval();
+    std::cout << "Prix de l'otion du call avec BSMC: " << estimated_price << std::endl;
+    //std::cout << "95% Confidence Interval: [" << conf_interval[0] << ", " << conf_interval[1] << "]" << std::endl;
+   
+    BlackScholesPricer pricerr(call, assetPrice, interestRate, volatility);
+    double pricee = pricerr();
+    std::cout << "Prix de l'option call avec BS: " << pricee << std::endl;
+    */
+    
+    double asset_price = 100;    // Prix actuel de l'actif
+    double up = 0.05;              // Facteur de hausse
+    double down = 0.045;            // Facteur de baisse
+    double interest_rate = 0.01;  // Taux d'intérêt sans risque
+    int depth = 5;
+    BinaryTree<double> tree;
 
-    BlackScholesPricer price(callOption, assetPrice, interestRate, volatility);
+   
 
-    double asset_price = 50.0;    // Prix actuel de l'actif
-    double up = 1.1;              // Facteur de hausse
-    double down = 0.9;            // Facteur de baisse
-    double interest_rate = 0.95;  // Taux d'intérêt sans risque
-    int depth = 3;
+    BinaryTree<bool> exercise_policy;
+   
 
-    CRRPricer pricer(callOption, depth, asset_price, up, down, interest_rate);
-
+    CRRPricer pricer(call, depth, asset_price, up, down, interest_rate);
+    
     // Calcule le prix de l'option avec l'algorithme CRR (closed_form = false)
-    double optionPriceCRR = pricer(false);
+    double optionPriceCRR = pricer();
     std::cout << "Prix de l'option (CRR): " << optionPriceCRR << std::endl;
-
-    // Affichage de toutes les valeurs dans l'arbre
-    std::cout << "Arbre des valeurs de l'option :" << std::endl;
-    for (int n = 0; n <= depth; ++n) {
-        for (int i = 0; i <= n; ++i) {
-            std::cout << "H(" << n << ", " << i << ") = " << pricer.get(n, i) << " ";
-        }
-        std::cout << std::endl;  // Nouvelle ligne pour chaque niveau
-    }
-
+       
 
     return 0;
 
+    
+   
     /*
-    // Calcul du prix de l'option Call
-    double price = pricer();
-    std::cout << "Prix de l'option Call: " << price << std::endl;
-
-    // Calcul du Delta de l'option Call
+     //Calcul du Delta de l'option Call
     double delta = pricer.delta();
     std::cout << "Delta de l'option Call: " << delta << std::endl;
+    
 
     // Libération de la mémoire
-    delete callOption;
+    delete putdigitalOption;
     */
 
 

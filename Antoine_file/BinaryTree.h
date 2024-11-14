@@ -9,12 +9,12 @@ private:
     std::vector<std::vector<T>> _tree;      // Vecteur de vecteurs pour stocker les nœuds
 
 public:
-    BinaryTree();                            // Constructeur
-    void setDepth(int);                // Setter pour _depth
-    void setNode(int , int , T ); // Setter pour un nœud spécifique
-    T getNode(int, int ) ;   // Getter pour un nœud spécifique
-    void display()  ;                    // Méthode pour afficher les valeurs
-                        // Getter pour _depth
+    BinaryTree();                     // Constructeur
+    void setDepth(int);               // Setter pour _depth
+    void setNode(int , int , T );     // Setter pour un nœud spécifique
+    T getNode(int, int ) ;            // Getter pour un nœud spécifique
+    void display()  ;                 // Méthode pour afficher les valeurs
+                                      // Getter pour _depth
 };
 
 // Constructeur par défaut
@@ -38,7 +38,7 @@ void BinaryTree<T>::setNode(int level, int index, T value) {
         _tree[level][index] = value;
     }
     else {
-        std::cout << "Invalid indices: level " << level << ", index " << index << std::endl;
+        std::cout << "Invalid indices avec set : level " << level << ", index " << index << std::endl;
     }
 }
 
@@ -46,10 +46,11 @@ void BinaryTree<T>::setNode(int level, int index, T value) {
 template <typename T>
 T BinaryTree<T>::getNode(int level, int index) {
     if (level >= 0 && level <= _depth && index >= 0 && index <= level) {
+      
         return _tree[level][index];
     }
     else {
-        std::cout << "Invalid indices: level " << level << ", index " << index << std::endl;
+        std::cout << "Invalid indices avec get: level " << level << ", index " << index << std::endl;
         return T();  // Return default value of T
     }
 }

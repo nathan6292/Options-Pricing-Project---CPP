@@ -14,6 +14,7 @@ private:
     int _depth;
     double _asset_price, _up, _down, _interest_rate;
     BinaryTree<double> _tree;  // Arbre binaire pour stocker les valeurs de l'option
+    BinaryTree<bool> _exercise_policy;    // Arbre pour stocker la politique d'exercice
 
 public:
     CRRPricer(option* option, int depth, double asset_price, double up, double down, double interest_rate);
@@ -26,6 +27,10 @@ public:
         return _tree.getNode(level, index);
     }
 
+    // Getter pour la politique d'exercice (renvoie true si l'option doit être exercée au noeud donné)
+    bool getExercisePolicy(int level, int index)  {
+        return _exercise_policy.getNode(level, index);
+    }
 
     // Opérateur() pour calculer le prix de l'option, avec un booléen pour la forme fermée
     double operator()(bool closed_form = false);
