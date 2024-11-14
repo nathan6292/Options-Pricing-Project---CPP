@@ -6,5 +6,6 @@ class CallOption : public EuropeanVanillaOption
 public:
 	CallOption(double, double);
 	optionType GetOptionType() const override;
+	double payoff(double) const override;
 };
 

@@ -8,5 +8,9 @@ optionType CallOption::GetOptionType() const {
 	return _type;
 }
 
+double CallOption::payoff(double spot) const {
+	return std::max(spot - _strike, 0.0);
+}
+
 
 

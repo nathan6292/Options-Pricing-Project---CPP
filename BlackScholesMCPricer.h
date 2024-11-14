@@ -13,7 +13,8 @@ private:
 	double _initial_price;
 	double _volatility;
 	double _interest_rate;  
-	std::vector<std::vector<double>> _paths;
+	double sum;
+	double sum_squared;
 
 public:
 	BlackScholesMCPricer(Option*, double, double, double);

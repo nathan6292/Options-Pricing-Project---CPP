@@ -1,5 +1,7 @@
-﻿  main.cpp
+﻿  BlackScholesMCPricer.cpp
+  main.cpp
 C:\Users\Nathan\OneDrive\ESILV\6. C++ for finance\C++ Project\main.cpp(41,39): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
 C:\Users\Nathan\OneDrive\ESILV\6. C++ for finance\C++ Project\main.cpp(46,66): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
 C:\Users\Nathan\OneDrive\ESILV\6. C++ for finance\C++ Project\main.cpp(51,63): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+  Génération de code en cours...
   C++ Project.vcxproj -> C:\Users\Nathan\OneDrive\ESILV\6. C++ for finance\C++ Project\x64\Debug\C++ Project.exe
