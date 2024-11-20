@@ -10,15 +10,3 @@ EuropeanDigitalOption::EuropeanDigitalOption(double expiry, double strike) : Opt
 	_strike = strike;
 }
 
-double EuropeanDigitalOption::payoff(double spot) const {
-	if (_type == optionType::Call)
-		if (spot >= _strike)
-			return 1;
-		else
-			return 0;
-	else
-		if (spot <= _strike)
-			return 1;
-		else
-			return 0;
-}

@@ -18,16 +18,16 @@ void BlackScholesMCPricer::generate(int nb_paths) {
 
 	if ((*_option).isAsianOption()) {
 		AsianOption* option = dynamic_cast<AsianOption*>(_option);
-		for (int i = 0; i < nb_paths; i++) {
-			double sum_path = _initial_price;
+		for(int i = 0; i < nb_paths; i++) {
+			std::vector<double> path((*option).time_steps.size(), 0);
+			path[0] = _initial_price;
 			double last = _initial_price;
 			for (int j = 1; j < (*option).time_steps.size(); j++) {
 				double price = last * std::exp((_interest_rate - (_volatility * _volatility) / 2) * ((*option).time_steps[j] - (*option).time_steps[j - 1]) + _volatility * std::sqrt((*option).time_steps[j] - (*option).time_steps[j - 1]) * MT::rand_norm());
-				sum_path += price;
+				path[j] = price;
 				last = price;
 			}
-			sum_path = sum_path / (*option).time_steps.size();
-			double pay = (*_option).payoff(sum_path);
+			double pay = (*option).payoffPath(path);
 			sum += pay;
 			sum_squared += pay*pay;
 			npaths++;

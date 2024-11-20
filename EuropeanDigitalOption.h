@@ -5,11 +5,11 @@ class EuropeanDigitalOption : public Option
 {
 private :
 	double _strike; 
-protected:
-	optionType _type;
 public:
 	EuropeanDigitalOption(double, double);
-	double payoff(double) const;
+	virtual optionType GetOptionType() const=0;
 	friend class BlackScholesPricer;
+	friend class EuropeanDigitalPutOption;
+	friend class EuropeanDigitalCallOption;
 };
 
