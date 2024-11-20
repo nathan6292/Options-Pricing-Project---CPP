@@ -56,6 +56,5 @@ std::vector<double> BlackScholesMCPricer::confidenceInterval() {
 	std::vector<double> interval;
 	interval.push_back(mean - half_width);
 	interval.push_back(mean + half_width);
-	//std::cout << "The confidence interval is: [" << interval[0] << ", " << interval[1] << "]" << std::endl;
 	return interval;
 }
