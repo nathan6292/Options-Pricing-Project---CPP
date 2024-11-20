@@ -179,8 +179,7 @@
               "ViewState": "AgIAAMwAAAAAAAAAAAAAANoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-18T12:06:08.497Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -219,7 +218,7 @@
               "RelativeDocumentMoniker": "BlackScholesMCPricer.cpp",
               "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.cpp",
               "RelativeToolTip": "BlackScholesMCPricer.cpp",
-              "ViewState": "AgIAABYAAAAA9lvtse8GwDoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAA9lvtse8GwCoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-09T16:35:36.725Z",
               "EditorCaption": ""
@@ -246,8 +245,7 @@
               "RelativeToolTip": "BlackScholesMCPricer.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T14:42:13.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T14:42:13.776Z"
             },
             {
               "$type": "Document",
