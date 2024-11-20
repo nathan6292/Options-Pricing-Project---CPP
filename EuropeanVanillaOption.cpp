@@ -17,6 +17,3 @@ EuropeanVanillaOption::EuropeanVanillaOption(double expiry, double strike) : Opt
 	_strike = strike;
 }
 
-optionType EuropeanVanillaOption::GetOptionType() const {
-	return _type;
-}
