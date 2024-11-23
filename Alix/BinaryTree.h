@@ -1,88 +1,80 @@
 #pragma once
 #include <vector>
 #include <iostream>
-#include "Option.h"
+#include <string>
+#include <iomanip> 
 
 template <typename T>
 class BinaryTree {
 private:
-    int _depth;                             // La profondeur de l'arbre binaire (N)
-    std::vector<std::vector<T>> _tree;      // Vecteur de vecteurs pour stocker les nœuds
+    int _depth;                             // Depth of the binary tree (N)
+    std::vector<std::vector<T> > _tree;     // Vector of vector to stock the nodes
 
 public:
-    BinaryTree();                            // Constructeur
-    BinaryTree(int depth) {
-		_depth = depth;
-		_tree.resize(depth);
-		for (int i = 0; i < depth; i++) {
-			_tree[i].resize(i + 1);
-		}
-	}
-    void setDepth(int);                // Setter pour _depth
-    void setNode(int , int , T ); // Setter pour un nœud spécifique
-    T getNode(int, int ) ;   // Getter pour un nœud spécifique
-    void display()  ;                    // Méthode pour afficher les valeurs
-                        // Getter pour _depth
+    BinaryTree();
+    BinaryTree(int);  
+    void setDepth(int); 
+    void setNode(int , int , T );
+    T getNode(int, int ) ;
+    void display()  ;                        
 };
 
-// Constructeur par défaut
+// Default constructor
 template <typename T>
 BinaryTree<T>::BinaryTree() : _depth(0) {}
 
+// Constructor
+template <typename T>
+BinaryTree<T>::BinaryTree(int depth) {
+    setDepth(depth);
+}
+
+// Setter for _depth
+template <typename T>
+void BinaryTree<T>::setDepth(int depth) {
+    _depth = depth;
+    _tree.resize(_depth + 1);  // Resize the tree to accommodate depth levels
+    for (int i = 0; i <= depth; ++i) {
+        _tree[i].resize(i + 1);  // Each level i has i + 1 nodes
+    }
+}
+
+// Setter for a specific node
+template <typename T>
+void BinaryTree<T>::setNode(int i, int j, T value) {
+    if (j < 0 || i < 0 || j > _depth || i > _depth) {
+        throw std::out_of_range("Invalid tree indices");
+    }
+	_tree[i][j] = value;
+}
+
+// Getter for a specific node
+template <typename T>
+T BinaryTree<T>::getNode(int i, int j) {
+    if (j < 0 || i < 0 || j > _depth || i > _depth) {
+        throw std::out_of_range("Invalid tree indices");
+    }
+	return _tree[i][j];
+}
+
 int countDigits(double num) {
-	// Utiliser la partie entière
 	int intPart = static_cast<int>(std::abs(num));
 	int digits = 0;
 
-	// Compter les chiffres de la partie entière
-	while (intPart != 0) {
+	while(intPart != 0.00) {
 		intPart /= 10;
 		digits++;
 	}
 
-	// Gérer les cas où le nombre est entre -1 et 1
 	if (digits == 0) digits = 1;
 
 	return digits;
 }
 
-// Setter pour _depth
-template <typename T>
-void BinaryTree<T>::setDepth(int depth) {
-    _depth = depth;
-	_tree.resize(depth);
-	for (int i = 0; i < depth; i++) {
-		_tree[i].resize(i + 1);
-	}
-}
-
-// Setter pour un nœud spécifique
-template <typename T>
-void BinaryTree<T>::setNode(int level, int index, T value) {
-    if (level >= 0 && level <= _depth && index >= 0 && index <= level) {
-        _tree[level][index] = value;
-    }
-    else {
-        std::cout << "Invalid indices: level " << level << ", index " << index << std::endl;
-    }
-}
-
-// Getter pour un nœud spécifique
-template <typename T>
-T BinaryTree<T>::getNode(int level, int index) {
-    if (level >= 0 && level <= _depth && index >= 0 && index <= level) {
-        return _tree[level][index];
-    }
-    else {
-        std::cout << "Invalid indices: level " << level << ", index " << index << std::endl;
-        return T();  // Return default value of T
-    }
-}
-
-// Méthode pour afficher les valeurs
+// Method to display the tree
 template <typename T>
 void BinaryTree<T>::display() {
-	for (int i = 0; i < _depth; i++) {
+	for (int i = 0; i <= _depth; i++){
 		for (int j = 0; j < i + 1; j++) {
 			std::cout << _tree[i][j] << " ";
 		}
@@ -93,36 +85,48 @@ void BinaryTree<T>::display() {
 	std::cout << std::endl;
 
 	int space_int = 5;
-	int space_ext = (space_int-2) * _depth-2;
-	for (int i = 0; i < _depth; i++) {
+	bool isdouble = typeid(_tree[0][0]) == typeid(double);
+	int space_ext = ((space_int) * _depth)/2;
+	for (int i = 0; i < _depth; i++){
 		int old_char_size = countDigits(_tree[i][0]);
-		std::cout << std::string(space_ext-(old_char_size/2), ' ');
+		if (isdouble) {
+			std::cout << std::string(space_ext - (old_char_size / 2)-1, ' ');
+		}
+		else {
+			std::cout << std::string(space_ext - (old_char_size / 2), ' ');
+		}
 
 		for (int j = 0; j < i; j++) {
 			int char_size = countDigits(_tree[i][j]);
 			int char_size_next = countDigits(_tree[i][j + 1]);
-			std::cout << _tree[i][j];
-			std::cout << std::string(space_int-(char_size_next/2)-char_size/3, ' ');
+			std::cout << std::fixed << std::setprecision(2) << _tree[i][j];
+			if (isdouble) {
+				std::cout << std::string(space_int-3, ' ');
+			}
+			else {
+				std::cout << std::string(space_int, ' ');
+			}
 			old_char_size = char_size;
 		}
 
-		std::cout << _tree[i][i];
+		std::cout << std::fixed << std::setprecision(2) << _tree[i][i];
 		std::cout << std::endl;
 
 		if (i < _depth - 1){
-			std::cout << std::string(space_ext-2, ' ');
+			std::cout << std::string(space_ext-2-countDigits(_tree[i][0]), ' ');
 			for (int j = 0; j < i+1; j++) {
+				std::cout << std::string(1, ' ');
 				std::cout << "/";
 				std::cout << std::string(3, ' ');
 				std::cout << "\\";
-				std::cout << std::string(1, ' ');
+				std::cout << std::string(0, ' ');
 			}
 		}
 			std::cout << std::endl;
-		space_ext = space_ext-space_int/2-1;
+			space_ext = space_ext-space_int/2-1;
 	}
-
-
-
 }
 
+template class BinaryTree<double>;
+template class BinaryTree<bool>;
+template class BinaryTree<int>;
