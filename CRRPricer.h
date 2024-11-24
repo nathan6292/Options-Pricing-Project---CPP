@@ -12,7 +12,7 @@ public:
 	double get(int, int);
 	double operator()(bool closed_form = false);
 	bool getExercise(int, int);
-private :
+private:
 	Option* option;
 	int depth;
 	double asset_price;
@@ -21,6 +21,4 @@ private :
 	double interest_rate;
 	BinaryTree<double> tree;
 	BinaryTree<bool> tree_bool;
-	
 };
-
