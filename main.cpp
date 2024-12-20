@@ -33,22 +33,22 @@ int main() {
 
 	std::cout << "Price using the CRR Method: " << std::endl; 
 	std::cout << "Tree of the EuropeanVanillaCallOption: " << std::endl << std::endl; 
-	CRRPricer call_crr(&call, 1000, 100, 0.01,0.1);
+	CRRPricer call_crr(&call, 5, 100, 0.05, -0.045, 0.01);
 	std::cout << "Price of the EuropeanVanillaCallOption: "<< call_crr() << std::endl;
 	std::cout << "Price of the EuropeanVanillaCallOption (closed form): " << call_crr(true) << std::endl << std::endl;
 
 	std::cout << "Tree of the EuropeanVanillaPutOption: " << std::endl << std::endl;
-	CRRPricer put_crr(&put, put.getExpiry(), 100, 0.05, -0.045, 0.01);
+	CRRPricer put_crr(&put, 5, 100, 0.05, -0.045, 0.01);
 	std::cout << "Price of the EuropeanVanillaPutOption: " << put_crr() << std::endl;
 	std::cout << "Price of the EuropeanVanillaPutOption (closed form): " << put_crr(true) << std::endl << std::endl;
 
 	std::cout << "Tree of the EuropeanDigitalCallOption: " << std::endl << std::endl;
-	CRRPricer call_digital_crr(&call_digital, call_digital.getExpiry(), 100, 0.05, -0.045, 0.01);
+	CRRPricer call_digital_crr(&call_digital, 5, 100, 0.05, -0.045, 0.01);
 	std::cout << "Price of the EuropeanDigitalCallOption: " << call_digital_crr() << std::endl;
 	std::cout << "Price of the EuropeanDigitalCallOption (closed form): " << call_digital_crr(true) << std::endl << std::endl;
 
 	std::cout << "Tree of the EuropeanDigitalPutOption: " << std::endl << std::endl;
-	CRRPricer put_digital_crr(&put_digital, put_digital.getExpiry(), 100, 0.05, -0.045, 0.01);
+	CRRPricer put_digital_crr(&put_digital, 5, 100, 0.05, -0.045, 0.01);
 	std::cout << "Price of the EuropeanDigitalCallOption: " << put_digital_crr() << std::endl;
 	std::cout << "Price of the EuropeanDigitalCallOption (closed form): " << put_digital_crr(true) << std::endl << std::endl;
 
@@ -59,37 +59,37 @@ int main() {
 	std::cout << "Price using MC BlackScholes: " << std::endl; 
 
 	BlackScholesMCPricer mc_call(&call, 100, 0.01, 0.1);
-	mc_call.generate(100000);
+	mc_call.generate(1000000);
 	std::cout << "Price of the EuropeanVanillaCallOption: " << mc_call() << std::endl; 
 
 	BlackScholesMCPricer mc_put(&put, 100, 0.01, 0.1);
-	mc_put.generate(100000);
+	mc_put.generate(1000000);
 	std::cout << "Price of the EuropeanVanillaPutOption: " << mc_put() << std::endl;
 
 	BlackScholesMCPricer mc_call_digital(&call_digital, 100, 0.01, 0.1);
-	mc_call_digital.generate(100000);
+	mc_call_digital.generate(1000000);
 	std::cout << "Price of the EuropeanDigitalCallOption: " << mc_call_digital() << std::endl;
 
 	BlackScholesMCPricer mc_put_digital(&put_digital, 100, 0.01, 0.1);
-	mc_put_digital.generate(100000);
+	mc_put_digital.generate(1000000);
 	std::cout << "Price of the EuropeanDigitalPutOption: " << mc_put_digital() << std::endl;
 
 
 	BlackScholesMCPricer mc_asian_call(&asian_call, 100, 0.01, 0.1);
-	mc_asian_call.generate(100000);
+	mc_asian_call.generate(1000000);
 	std::cout << "Price of the AsianCallOption: " << mc_asian_call() << std::endl;
 
 	BlackScholesMCPricer mc_asian_put(&asian_put, 100, 0.01, 0.1);
-	mc_asian_put.generate(100000);
+	mc_asian_put.generate(1000000);
 	std::cout << "Price of the AsianPutOption: " << mc_asian_put() << std::endl;
 
 	std::cout << "Pice of AmericanOption using CRR: " << std::endl << std::endl;
 	AmericanCallOption american_call(5, 101);
-	CRRPricer american_call_crr(&american_call, 1000, 100, 0.01, 0.1);
+	CRRPricer american_call_crr(&american_call, 5, 100, 0.05, -0.045, 0.01);
 	std::cout << "Price of the AmericanCallOption: " << american_call_crr() << std::endl;
 
 	AmericanPutOption american_put(5, 101);
-	CRRPricer american_put_crr(&american_put, 1000, 100, 0.01, 0.1);
+	CRRPricer american_put_crr(&american_put, 5, 100, 0.05, -0.045, 0.01);
 	std::cout << "Price of the AmericanPutOption: " << american_put_crr() << std::endl;
 
     std::cout << std::endl << "*********************************************************" << std::endl;
