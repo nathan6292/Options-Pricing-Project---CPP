@@ -1,7 +1,5 @@
 # C++ for Finance - Options Pricing Project 💹
 
-# 🚧🔨 This project is currently under development 🚧🔨
-
 ## Introduction
 The project aims to implement options pricing models in C++, focusing on European vanilla options as well as more complex options, such as path-dependent options. The main aspects of the project include defining abstract classes for options, implementing different pricing models, and utilizing simulation methods. 🚀
 
