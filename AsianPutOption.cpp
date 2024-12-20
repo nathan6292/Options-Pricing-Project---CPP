@@ -9,5 +9,5 @@ AsianPutOption::AsianPutOption(std::vector<double> times, double strike) : Asian
 }
 
 double AsianPutOption::payoff(double spot) const {
-	return std::max(spot - _strike, 0.0);
+	return std::max(_strike - spot, 0.0);
 }

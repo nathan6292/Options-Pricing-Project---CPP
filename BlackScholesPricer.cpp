@@ -58,11 +58,11 @@ double BlackScholesPricer::delta() const {
         else{
 	        double T = _option_digital->getExpiry();
 	        double K = _option_digital->_strike;
-	        double d1 = (std::log(S / K) + (r + 0.5 * sigma * sigma) * T) / (sigma * std::sqrt(T));
-
+	        double d2 = (std::log(S / K) + (r + 0.5 * sigma * sigma) * T) / (sigma * std::sqrt(T)) - sigma*std::sqrt(T);
+            double delta = (std::exp(-r * T) / (S * sigma * std::sqrt(2 * 3.14159265358979323846 * T))) * std::exp(-d2 * d2 / 2);
 	        if ((*_option_digital).GetOptionType() == optionType::Call)
-		        return (0.5 * std::erfc(-d1 / std::sqrt(2)))/(S*sigma*sqrt(T));
+		        return delta;
 	        else
-		        return -(0.5 * std::erfc(-d1 / std::sqrt(2))) / (S * sigma * sqrt(T));
+		        return -delta;
         }
 }
