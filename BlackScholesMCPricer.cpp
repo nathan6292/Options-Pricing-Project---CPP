@@ -112,8 +112,6 @@ double BlackScholesMCPricer::operator()() {
 /// Computes the confidence interval of the price of the option using the Monte Carlo method
 /// 
 /// The confidence interval is computed using the formula : mean +/- 1.96 * std_dev/sqrt(npaths)
-/// 
-/// 
 /// </summary>
 /// <returns></returns>
 std::vector<double> BlackScholesMCPricer::confidenceInterval() {

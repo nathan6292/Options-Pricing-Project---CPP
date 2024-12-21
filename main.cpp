@@ -118,11 +118,11 @@ int main() {
 
 	std::cout << "Pice of AmericanOption using CRR: " << std::endl << std::endl;
 	AmericanCallOption american_call(5, 101);
-	CRRPricer american_call_crr(&american_call, 5, 100, 0.05, -0.045, 0.01);
+	CRRPricer american_call_crr(&american_call, 1000, 100, 0.01, 0.1);
 	std::cout << "Price of the AmericanCallOption: " << american_call_crr() << std::endl;
 
 	AmericanPutOption american_put(5, 101);
-	CRRPricer american_put_crr(&american_put, 5, 100, 0.05, -0.045, 0.01);
+	CRRPricer american_put_crr(&american_put, 1000, 100, 0.01, 0.1);
 	std::cout << "Price of the AmericanPutOption: " << american_put_crr() << std::endl;
 
     std::cout << std::endl << "*********************************************************" << std::endl;

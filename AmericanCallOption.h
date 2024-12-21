@@ -4,6 +4,9 @@
 
 class AmericanCallOption : public AmericanOption
 {
+private:
+	optionType _type;
+
 public: 
 	AmericanCallOption(double, double);
 	optionType GetOptionType() const;
