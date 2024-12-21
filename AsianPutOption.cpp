@@ -8,6 +8,6 @@ AsianPutOption::AsianPutOption(std::vector<double> times, double strike) : Asian
 	_type = optionType::Put;
 }
 
-double AsianPutOption::payoff(double spot) const {
-	return std::max(_strike - spot, 0.0);
+double AsianPutOption::payoff(double mean_spot) const {
+	return std::max(_strike - mean_spot, 0.0);
 }

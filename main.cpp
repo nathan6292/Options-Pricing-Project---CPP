@@ -59,29 +59,62 @@ int main() {
 	std::cout << "Price using MC BlackScholes: " << std::endl; 
 
 	BlackScholesMCPricer mc_call(&call, 100, 0.01, 0.1);
-	mc_call.generate(1000000);
+    std::vector<double> cint;
+    do {
+        mc_call.generate(1000);
+        cint= mc_call.confidenceInterval();
+    } while (cint[1] - cint[0] > 1e-2);
+    //Reset cint to 0 ,1
+	cint = { 0, 1 };
 	std::cout << "Price of the EuropeanVanillaCallOption: " << mc_call() << std::endl; 
 
 	BlackScholesMCPricer mc_put(&put, 100, 0.01, 0.1);
-	mc_put.generate(1000000);
-	std::cout << "Price of the EuropeanVanillaPutOption: " << mc_put() << std::endl;
+    do {
+        mc_put.generate(1000);
+        cint = mc_put.confidenceInterval();
+    } while (cint[1] - cint[0] > 1e-2);
+    std::cout << "Price of the EuropeanVanillaPutOption: " << mc_put() << std::endl;
+    //Reset cint to 0 ,1
+    cint = { 0, 1 };
 
 	BlackScholesMCPricer mc_call_digital(&call_digital, 100, 0.01, 0.1);
-	mc_call_digital.generate(1000000);
-	std::cout << "Price of the EuropeanDigitalCallOption: " << mc_call_digital() << std::endl;
+    do {
+        mc_call_digital.generate(1000);
+        cint = mc_call_digital.confidenceInterval();
+    } while (cint[1] - cint[0] > 1e-2);
+    std::cout << "Price of the EuropeanDigitalCallOption: " << mc_call_digital() << std::endl;
+
+    //Reset cint to 0 ,1
+    cint = { 0, 1 };
 
 	BlackScholesMCPricer mc_put_digital(&put_digital, 100, 0.01, 0.1);
-	mc_put_digital.generate(1000000);
-	std::cout << "Price of the EuropeanDigitalPutOption: " << mc_put_digital() << std::endl;
+    do {
+        mc_put_digital.generate(1000);
+        cint = mc_put_digital.confidenceInterval();
+    } while (cint[1] - cint[0] > 1e-2);
+    std::cout << "Price of the EuropeanDigitalPutOption: " << mc_put_digital() << std::endl;
 
+    //Reset cint to 0 ,1
+    cint = { 0, 1 };
 
-	BlackScholesMCPricer mc_asian_call(&asian_call, 100, 0.01, 0.1);
-	mc_asian_call.generate(1000000);
-	std::cout << "Price of the AsianCallOption: " << mc_asian_call() << std::endl;
+	BlackScholesMCPricer mc_asian_call(&asian_call, 100, 0.01, 0.1);;
+    do {
+        mc_asian_call.generate(1000);
+        cint = mc_asian_call.confidenceInterval();
+    } while (cint[1] - cint[0] > 1e-2);
+    std::cout << "Price of the AsianCallOption: " << mc_asian_call() << std::endl;
+
+    //Reset cint to 0 ,1
+    cint = { 0, 1 };
 
 	BlackScholesMCPricer mc_asian_put(&asian_put, 100, 0.01, 0.1);
-	mc_asian_put.generate(1000000);
-	std::cout << "Price of the AsianPutOption: " << mc_asian_put() << std::endl;
+    do {
+        mc_asian_put.generate(1000);
+        cint = mc_asian_put.confidenceInterval();
+    } while (cint[1] - cint[0] > 1e-2);
+    std::cout << "Price of the AsianPutOption: " << mc_asian_put() << std::endl;
+    //Reset cint to 0 ,1
+    cint = { 0, 1 };
 
 	std::cout << "Pice of AmericanOption using CRR: " << std::endl << std::endl;
 	AmericanCallOption american_call(5, 101);
@@ -147,7 +180,7 @@ int main() {
 
         BinaryTree<double> t2;
         t2.setDepth(2);
-        t2.setNode(2, 1, 3.14);
+        t2.setNode(2, 1, 100);
         t2.display();
         t2.setDepth(4);
         t2.display();
@@ -177,10 +210,10 @@ int main() {
 
         {
             BlackScholesPricer pricer1(&opt1, S0, r, sigma);
-            std::cout << "BlackScholesPricer price=" << pricer1() << ", delta=" << pricer1.delta() << std::endl;
+            std::cout << "BlackScholesPricer price=" << pricer1() << ", delta=" << std::setprecision(4)<< pricer1.delta() << std::endl;
 
             BlackScholesPricer pricer2(&opt2, S0, r, sigma);
-            std::cout << "BlackScholesPricer price=" << pricer2() << ", delta=" << pricer2.delta() << std::endl;
+            std::cout << "BlackScholesPricer price=" << pricer2() << ", delta=" << std::setprecision(4) << pricer2.delta() << std::endl;
             std::cout << std::endl;
 
             int N(150);
@@ -226,11 +259,12 @@ int main() {
    for (auto& opt_ptr : opt_ptrs) {
         pricer = new BlackScholesMCPricer(opt_ptr, S0, r, sigma);
         do {
-            pricer->generate(10);
+            pricer->generate(100);
             ci = pricer->confidenceInterval();
         } while (ci[1] - ci[0] > 1e-2);
         std::cout << "nb samples: " << pricer->getNbPaths() << std::endl;
-        std::cout << "price: " << (*pricer)() << std::endl << std::endl;
+        std::cout << "price: " << (*pricer)() << std::endl;
+        std::cout << "confidence interval: [" << ci[0] << ", " << ci[1] << "]" << std::endl << std::endl;
         delete pricer;
         delete opt_ptr;
     }

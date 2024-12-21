@@ -24,9 +24,6 @@
     <ClCompile Include="EuropeanVanillaOption.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="optionType.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="CallOption.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>

@@ -143,7 +143,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MT.cpp" />
     <ClCompile Include="Option.cpp" />
-    <ClCompile Include="optionType.cpp" />
     <ClCompile Include="PutOption.cpp" />
     <ClCompile Include="CRRPricer.cpp" />
   </ItemGroup>
