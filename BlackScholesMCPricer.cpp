@@ -36,6 +36,9 @@ int BlackScholesMCPricer::getNbPaths() {
 /// <param name="nb_paths">Number of paths that we want to generate</param>
 void BlackScholesMCPricer::generate(int nb_paths) {
 
+	// Compute the discount factor for the Asian option in order to avoid recomputing exponential at each time step
+	double discount_factor = std::exp(-_interest_rate * (*_option).getExpiry());
+
 	// Check if the option is an Asian option
 	if ((*_option).isAsianOption()) {
 		// Cast the option to an AsianOption
@@ -44,11 +47,16 @@ void BlackScholesMCPricer::generate(int nb_paths) {
 		// Get the time steps of the option
 		std::vector<double> time_steps = (*option).getTimeSteps();
 
+		// Initialize the vector path that will contain the prices of the asset at each time step
+		std::vector<double> path(time_steps.size(), 0);
+
 		//Generate nb_paths paths
 		for(int i = 0; i < nb_paths; i++) {
-			// Initialize the vector path that will contain the prices of the asset at each time step
-			std::vector<double> path(time_steps.size(), 0);
-
+			//Reset the path to 0
+			for (size_t i = 0; i < path.size(); ++i) {
+				path[i] = 0;
+			}
+	
 			// Set the first price of the path to the initial price
 			path[0] = _initial_price;
 
@@ -57,20 +65,30 @@ void BlackScholesMCPricer::generate(int nb_paths) {
 
 			//Generate the prices of the asset at each time step
 			for (int j = 1; j < time_steps.size(); j++) {
-				// Generate the price of the asset at time step j
-				double price = last * std::exp((_interest_rate - (_volatility * _volatility) / 2) * (time_steps[j] - time_steps[j - 1]) + _volatility * std::sqrt(time_steps[j] - time_steps[j - 1]) * MT::rand_norm());
+				//Compute time between two time steps
+				double dt = time_steps[j] - time_steps[j - 1];
+
+				//Compute the drift, which is the interest rate minus half the volatility squared
+				double drift = (_interest_rate - (_volatility * _volatility) / 2) * dt;
+
+				//Compute the diffusion, which is the volatility times the square root of the time step times a random number
+				double diffusion = _volatility * std::sqrt(dt) * MT::rand_norm();
+
+				// Generate the price of the asset at time step 
+				double price = last * std::exp(drift + diffusion);
 				// Store the price in the path vector
 				path[j] = price;
 				// Update the last price generated
 				last = price;
 			}
-			
-			// Compute the payoff of the Asian option with the path generated
-			double pay = (*option).payoffPath(path);
+		
 
-			// Update the sum of the payoffs and the sum of the squared payoffs
+			// Compute the payoff of the Asian option with the path generated
+			double pay = (*option).payoffPath(path)*discount_factor;
+
+			// Update the sum of the payoffs and the sum of the squared payoffs;
 			sum += pay;
-			sum_squared += pay*pay * std::exp(-_interest_rate * (*_option).getExpiry()*2);
+			sum_squared += pay*pay;
 
 			// Increment the number of paths generated
 			npaths++;
@@ -85,8 +103,8 @@ void BlackScholesMCPricer::generate(int nb_paths) {
 				double pay = (*_option).payoff(_initial_price * std::exp((_interest_rate - (_volatility * _volatility) / 2) * ((*_option).getExpiry()) + _volatility * std::sqrt((*_option).getExpiry()) * MT::rand_norm()));
 
 				// Update the sum of the payoffs and the sum of the squared payoffs
-				sum += pay;
-				sum_squared += pay * pay;
+				sum += pay*discount_factor;
+				sum_squared += pay * pay * discount_factor * discount_factor;
 
 				// Increment the number of paths generated
 				npaths++;
@@ -105,7 +123,7 @@ double BlackScholesMCPricer::operator()() {
 		}
 
 		// Return the average of the payoffs discounted at the interest rate
-		return (sum /npaths)*std::exp(-_interest_rate * (*_option).getExpiry());
+		return (sum /npaths);
 }
 
 /// <summary>
@@ -121,7 +139,7 @@ std::vector<double> BlackScholesMCPricer::confidenceInterval() {
 	}
 
 	// Compute the mean of the payoffs
-	double mean = (sum / npaths) * std::exp(-_interest_rate * (*_option).getExpiry());
+	double mean = (sum / npaths);
 
 	// Compute the standard deviation of the payoffs
 	double std_dev = std::sqrt(sum_squared / npaths - mean * mean);

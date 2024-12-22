@@ -14,6 +14,7 @@
 /// <param name="expiry">expiry of the option</param>
 /// <param name="strike">strike of the option</param>
 EuropeanVanillaOption::EuropeanVanillaOption(double expiry, double strike) : Option(expiry) {
+	// Check if the expiry and strike are positive
     try {
         if (expiry < 0)
             throw std::invalid_argument("Expiry must be positive");

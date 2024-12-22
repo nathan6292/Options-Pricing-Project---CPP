@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  BlackScholesMCPricer.cpp
+  BlackScholesPricer.cpp
+  main.cpp
+  CRRPricer.cpp
+  Génération de code en cours...
   C++ Project.vcxproj -> C:\Users\Nathan\OneDrive\ESILV\6. C++ for finance\C++ Project\x64\Debug\C++ Project.exe

@@ -32,10 +32,11 @@ AsianOption::AsianOption(std::vector<double> times) : Option(times[times.size() 
 double AsianOption::payoffPath(std::vector<double> spots) const{
 	// Compute the mean of the spots
 	double mean_spots = 0; 
-	for (int i = 0; i < spots.size(); i++) {
+	int size = spots.size();
+	for (int i = 0; i < size; i++) {
 		mean_spots += spots[i];
 	}
-	mean_spots = mean_spots / spots.size(); 
+	mean_spots = mean_spots / size; 
 
 	// Return the payoff of the option with the mean of the spots depending on the type of the option
 	return payoff(mean_spots);

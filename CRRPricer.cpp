@@ -99,16 +99,16 @@ CRRPricer::CRRPricer(Option* option, int depth, double asset_price, double r, do
 }
 
 /// <summary>
-/// Implement the Cox-Ross-Rubinstein model procedure to compute the price of the option
-/// 
-/// We use the binomial tree to compute the price of the option
+/// This method constructs a binary tree of option values using the Cox-Rox-Robinson method
+/// It first calculates the value of the last level of the tree (at expiry) by applying the option's payoff method
+/// Then, it goes back up the tree using the Backpropagation Formula given in the statement
 /// </summary>
 void CRRPricer::compute() {
 	// Initialise values at expiry level N
 	for (int i = 0; i <= depth; ++i) {
 		double final_price = asset_price * std::pow(1 + up, i) * std::pow(1 + down, depth - i); //we simply use the formula S(N,i)=S0*U^i*D^(N-i)
 		tree.setNode(depth, i, option->payoff(final_price));
-		tree_bool.setNode(depth, i, false); // On expiry, there's no question of early exercise
+		tree_bool.setNode(depth, i, true); // On expiry, we have no choice to exercise the option
 	}
 
 	// Induction to calculate values at previous levels
@@ -160,7 +160,7 @@ double CRRPricer::get(int i, int j) {
 /// <summary>
 /// Compute the price of the option using the Cox-Ross-Rubinstein model for European and American options
 /// 
-/// If closed_form is false, we use the standard method to compute the price of the option
+/// If closed_form is false, we use the standard binomial method to compute the price of the option
 /// </summary>
 /// <param name="closed_form">If closed_form is true, we use the closed-form formula to compute the price of the option</param>
 /// <returns>Price of the option</returns>
@@ -198,7 +198,7 @@ double CRRPricer::operator()(bool closed_form) {
 
 
 /// <summary>
-/// Returns the exercise policy of the option at the node (i,j) of the tree for American options 
+/// Returns the exercise policy at the node (i,j) of the tree for American options 
 /// 
 /// The exercise policy is a boolean value (true if the option is exercised, false otherwise)
 /// </summary>

@@ -60,12 +60,13 @@ int main() {
 
 	BlackScholesMCPricer mc_call(&call, 100, 0.01, 0.1);
     std::vector<double> cint;
-    do {
-        mc_call.generate(1000);
-        cint= mc_call.confidenceInterval();
-    } while (cint[1] - cint[0] > 1e-2);
+    //do {
+      //  mc_call.generate(1000);
+        //cint= mc_call.confidenceInterval();
+    //} while (cint[1] - cint[0] > 1e-2);
     //Reset cint to 0 ,1
-	cint = { 0, 1 };
+	//cint = { 0, 1 };
+	mc_call.generate(10000000);
 	std::cout << "Price of the EuropeanVanillaCallOption: " << mc_call() << std::endl; 
 
 	BlackScholesMCPricer mc_put(&put, 100, 0.01, 0.1);

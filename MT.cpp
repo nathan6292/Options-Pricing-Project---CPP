@@ -23,7 +23,8 @@ MT& MT::get_instance() {
 /// </summary>
 /// <returns>Random number between 0 and 1</returns>
 double MT::rand_unif() {
-    return get_instance().uniform_dist(get_instance().generator);
+	MT& instance = get_instance();
+	return instance.uniform_dist(instance.generator);
 }
 
 /// <summary>
@@ -31,5 +32,6 @@ double MT::rand_unif() {
 /// </summary>
 /// <returns>Random number following a normal distribution</returns>
 double MT::rand_norm(){
-    return get_instance().normal_dist(get_instance().generator);
+	MT& instance = get_instance();
+	return instance.normal_dist(instance.generator);
 }
