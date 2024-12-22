@@ -1,0 +1,24 @@
+# Build directory
+build
+.vs
+.vscode
+
+# Coverage files
+.gcno
+.gcda
+.gcov
+coverage.info
+coverage
+
+# Object files
+.o
+.obj
+
+# IDE specific files
+.idea
+.swp
+~
+
+# Executables
+.exe
+.out

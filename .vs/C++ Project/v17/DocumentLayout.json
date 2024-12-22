@@ -165,7 +165,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
@@ -178,8 +178,7 @@
               "ViewState": "AgIAAIMAAAAAAAAAAAAAAEQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-18T12:06:08.497Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -198,6 +197,26 @@
               "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MT.cpp",
@@ -207,8 +226,7 @@
               "RelativeToolTip": "MT.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T14:29:10.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T14:29:10.984Z"
             },
             {
               "$type": "Document",
@@ -232,8 +250,7 @@
               "RelativeToolTip": "BlackScholesMCPricer.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T14:42:13.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T14:42:13.776Z"
             },
             {
               "$type": "Document",
@@ -249,10 +266,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:8:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BlackScholesPricer.cpp",
@@ -263,10 +276,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-18T13:32:11.847Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
             },
             {
               "$type": "Document",
@@ -281,14 +290,6 @@
               "WhenOpened": "2024-10-18T12:14:38.052Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:4:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AsianOption.cpp",
@@ -299,10 +300,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-09T13:12:13.285Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
             },
             {
               "$type": "Document",
