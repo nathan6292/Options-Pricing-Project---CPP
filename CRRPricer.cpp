@@ -35,6 +35,11 @@ double power(double x, int n) {
 /// <param name="interest_rate">Risk-free interest rate</param>
 CRRPricer::CRRPricer(Option* option, int depth, double asset_price, double up, double down, double interest_rate) {
 
+	// Check if the depth is greater than 0 to throw an exception
+	if (depth < 1) {
+		throw std::invalid_argument("The depth of the tree must be greater than 0!");
+	}
+
 	// Check if the option is an Asian option to throw an exception
 	if (option->isAsianOption()) {
 		throw std::invalid_argument("The option is an Asian Option!");
@@ -71,6 +76,11 @@ CRRPricer::CRRPricer(Option* option, int depth, double asset_price, double up, d
 /// <param name="r">Continously compounded interest rate in the Black-Scholes model</param>
 /// <param name="volatility">Volatility of the underlying asset</param>
 CRRPricer::CRRPricer(Option* option, int depth, double asset_price, double r, double volatility) {
+
+	// Check if the depth is positive to throw an exception
+	if (depth < 1) {
+		throw std::invalid_argument("The depth of the tree must be greater than 0!");
+	}
 
 	// Check if the option is an Asian option to throw an exception
 	if (option->isAsianOption()) {

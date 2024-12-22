@@ -15,6 +15,6 @@ public:
 	optionType GetOptionType() const override;
 
 	//Declaration of the overriden function payoff that returns the payoff of the option
-	double payoff(double) const;
+	double payoff(double) const override;
 };
 

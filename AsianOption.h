@@ -15,7 +15,7 @@ public :
 	AsianOption(std::vector<double>);
 
 	// Declaration of the overriden function payoffPath that returns the payoff of the option
-	double payoffPath(std::vector<double>) const override;
+	double payoffPath(std::vector<double>&) const override;
 
 	// Declaration of the overriden function isAsianOption that returns true
 	bool isAsianOption() const override;

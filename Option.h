@@ -17,7 +17,7 @@ public:
 	virtual double payoff(double) const = 0;
 
 	//Declaration of the function payoffPath for Asian options
-	virtual double payoffPath(std::vector<double>) const; 
+	virtual double payoffPath(std::vector<double>&) const; 
 
 	//Declaration of the constructor with the parameter expiry
 	Option(double);

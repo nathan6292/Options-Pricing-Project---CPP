@@ -16,10 +16,15 @@ double Option::getExpiry() const {
 
 /// <summary>
 /// returns the payoff using the path for Asian options
+/// 
+/// The payoff of the Asian option is the payoff of a basic option with the price being the average of the spots at different times
+/// Here, the base class Option returns the payoff of the option at the last time step like a basic option
+/// 
+/// The payoff of the Asian option is defined in the derived classes AsianOption
 /// </summary>
-/// <param name="time">Vector of time steps for the path of the Asian option</param>
-/// <returns>Payoff of the Asian option</returns>
-double Option::payoffPath(std::vector<double> time) const {
+/// <param name="time">Vector of the price at different time steps for the Asian option</param>
+/// <returns>Payoff of the option</returns>
+double Option::payoffPath(std::vector<double>& time) const {
 	return payoff(time[time.size() - 1]);
 }
 

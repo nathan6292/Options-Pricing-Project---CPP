@@ -254,6 +254,7 @@ int main() {
     opt_ptrs.push_back(new AsianCallOption(fixing_dates, K));
     opt_ptrs.push_back(new AsianPutOption(fixing_dates, K));
 
+
     std::vector<double> ci;
     BlackScholesMCPricer* pricer;
 

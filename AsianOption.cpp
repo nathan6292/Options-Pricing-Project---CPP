@@ -9,6 +9,9 @@
 /// <param name="times">Vector of time_steps</param>
 AsianOption::AsianOption(std::vector<double> times) : Option(times[times.size() - 1]) {
 	// Check if the times are in increasing order and positive
+	int n = times.size();
+	if (n == 0)
+		throw std::invalid_argument("There must be at least one time step");
 	for (int i = 0; i < times.size() - 1; i++) {
 		if (times[i] > times[i + 1])
 			throw std::invalid_argument("Times must be in increasing order");
@@ -29,7 +32,7 @@ AsianOption::AsianOption(std::vector<double> times) : Option(times[times.size() 
 /// </summary>
 /// <param name="spots">Vectors with spots prices at different times</param>
 /// <returns>Price of the Asian Option</returns>
-double AsianOption::payoffPath(std::vector<double> spots) const{
+double AsianOption::payoffPath(std::vector<double>& spots) const{
 	// Compute the mean of the spots
 	double mean_spots = 0; 
 	int size = spots.size();
