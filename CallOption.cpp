@@ -13,6 +13,9 @@ CallOption::CallOption(double expiry, double strike) : EuropeanVanillaOption(exp
 	_type = optionType::Call;
 }
 
+//Destructor for the CallOption class
+CallOption::~CallOption() {}
+
 /// <summary>
 /// Returns the type of the option (Call in this case)
 /// </summary>

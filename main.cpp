@@ -54,7 +54,7 @@ int main() {
 
     std::vector<double> path;
     // Remplir le vecteur avec les valeurs de 1 à 50
-    for (double i = 0; i < 5; i=i+0.1) {
+    for (double i = 0; i <=5; i=i+0.1) {
         path.push_back(i);
     }
     std::cout << path.size();

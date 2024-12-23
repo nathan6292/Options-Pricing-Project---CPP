@@ -31,6 +31,8 @@ BlackScholesPricer::BlackScholesPricer(EuropeanVanillaOption* option, double ass
 BlackScholesPricer::BlackScholesPricer(EuropeanDigitalOption* option, double asset_price, double interest_rate, double volatility)
     : _option_digital(option), _asset_price(asset_price), _interest_rate(interest_rate), _volatility(volatility), _option_vanilla(nullptr) {}
 
+//Destructor
+BlackScholesPricer::~BlackScholesPricer() {}
 
 /// <summary>
 /// Computes the price of the option

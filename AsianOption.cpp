@@ -23,6 +23,9 @@ AsianOption::AsianOption(std::vector<double> times) : Option(times[times.size() 
 	time_steps = times; 
 }
 
+//Destructor
+AsianOption::~AsianOption() {}
+
 /// <summary>
 /// Computes the payoff of the Asian option given a vector of spots at different times
 /// 

@@ -15,6 +15,9 @@ AsianCallOption::AsianCallOption(std::vector<double> times, double strike) : Asi
 	_strike = strike;
 }
 
+//Destructor for the AsianCallOption class
+AsianCallOption::~AsianCallOption() {}
+
 /// <summary>
 /// Computes the payoff of the Asian call option at a given mean spot price 
 /// 

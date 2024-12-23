@@ -17,6 +17,9 @@ public:
 	// Declaration of the constructor BinaryTree without parameters (depth = 0)
 	BinaryTree();
 
+	//Destructor
+	~BinaryTree();
+
 	// Declaration of the constructor BinaryTree with the parameter depth
 	BinaryTree(int);
 
@@ -36,6 +39,10 @@ public:
 // Declaration of the constructor BinaryTree without parameters (depth = 0)
 template <typename T>
 BinaryTree<T>::BinaryTree() : _depth(0) {}
+
+//Destructor
+template <typename T>
+BinaryTree<T>::~BinaryTree() {}
 
 // Declaration of the constructor BinaryTree with the parameter depth
 template <typename T>

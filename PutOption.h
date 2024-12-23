@@ -11,6 +11,9 @@ public:
 	//Declaration of the constructor with the parameters expiry and strike
 	PutOption(double, double);
 
+	//Destructor
+	~PutOption();
+
 	//Declaration of the overriden function GetOptionType that returns the option type (Put)
 	optionType GetOptionType() const override;
 

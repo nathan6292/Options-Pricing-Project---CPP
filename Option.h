@@ -22,6 +22,9 @@ public:
 	//Declaration of the constructor with the parameter expiry
 	Option(double);
 
+	//Destructor
+	~Option();
+
 	//Declaration of the virtual function isAsianOption, this function is used to check if the option is an Asian option
 	virtual bool isAsianOption() const; 
 	//Declaration of the function isAmericanOption, this function is used to check if the option is an American option

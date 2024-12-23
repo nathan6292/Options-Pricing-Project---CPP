@@ -6,9 +6,7 @@
 /// 
 /// The constructor initializes the generator with a random seed and the uniform and normal distributions
 /// </summary>
-MT::MT() : generator(std::random_device{}()),
-uniform_dist(0.0, 1.0),
-normal_dist(0.0, 1.0) {
+MT::MT() : generator(std::random_device{}()){
     std::cout << "MT instance created." << std::endl;
 }
 
@@ -18,6 +16,9 @@ MT& MT::get_instance() {
     return instance;
 }
 
+std::uniform_real_distribution<double> MT::uniform_dist(0.0, 1.0);
+
+
 /// <summary>
 /// Returns a random number between 0 and 1 using the uniform distribution
 /// </summary>
@@ -26,6 +27,9 @@ double MT::rand_unif() {
 	MT& instance = get_instance();
 	return instance.uniform_dist(instance.generator);
 }
+
+std::normal_distribution<double> MT::normal_dist(0.0, 1.0);
+
 
 /// <summary>
 /// Returns a random number following a normal distribution 

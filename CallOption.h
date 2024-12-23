@@ -11,6 +11,9 @@ public:
 	//Declaration of the constructor with the parameters expiry and strike
 	CallOption(double, double);
 
+	//Destructor
+	~CallOption();
+
 	//Declaration of the overriden function GetOptionType that returns the option type (Call)
 	optionType GetOptionType() const override;
 

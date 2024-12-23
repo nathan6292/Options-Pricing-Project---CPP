@@ -12,8 +12,12 @@ public:
 	// Declaration of the constructor with the parameters strike and expiry
 	EuropeanDigitalOption(double, double);
 
+	// Destructor
+	~EuropeanDigitalOption();
+
 	// Declaration of the pure virtual function payoff that returns the payoff of the option
 	virtual optionType GetOptionType() const=0;
+
 
 	// Defines BlackScholesPrices, EuropeanDigitalPutOption and EuropeanDigitalCallOption as friend classes to access the strike
 	friend class BlackScholesPricer;

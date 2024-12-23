@@ -13,6 +13,9 @@ PutOption::PutOption(double expiry, double strike) : EuropeanVanillaOption(expir
 	_type = optionType::Put;
 }
 
+//Destructor for the PutOption class
+PutOption::~PutOption() {}
+
 /// <summary>
 /// Returns the type of the option (Put in this case)
 /// </summary>

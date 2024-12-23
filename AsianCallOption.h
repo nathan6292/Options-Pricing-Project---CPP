@@ -13,6 +13,10 @@ public :
 	//Declaration of the constructor with the parameters times and strike
 	AsianCallOption(std::vector<double> times, double strike);
 
+	//Destructor
+	~AsianCallOption();
+
+	//Declaration of the overriden function payoff that returns the payoff of the option at a given spot price
 	double payoff(double spot) const override;
 
 };

@@ -9,6 +9,10 @@ AmericanPutOption::AmericanPutOption(double expiry, double strike) : AmericanOpt
 	_type = optionType::Put;
 }
 
+
+//Destructor for the AmericanPutOption class
+AmericanPutOption::~AmericanPutOption() {}
+
 /// <summary>
 /// Computes the payoff of the American put option at a given spot price
 /// 

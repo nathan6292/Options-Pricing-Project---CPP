@@ -9,6 +9,9 @@ EuropeanDigitalCallOption::EuropeanDigitalCallOption(double expiry, double strik
 	_type = optionType::Call;
 }
 
+// Destructor for the EuropeanDigitalCallOption class
+EuropeanDigitalCallOption::~EuropeanDigitalCallOption() {}
+
 /// <summary>
 /// Computes the payoff of the European digital call option at a given spot price
 /// 

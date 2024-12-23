@@ -17,6 +17,9 @@ AsianPutOption::AsianPutOption(std::vector<double> times, double strike) : Asian
 	_type = optionType::Put;
 }
 
+//Destructor for the AsianPutOption class
+AsianPutOption::~AsianPutOption() {}
+
 /// <summary>
 /// Computes the payoff of the Asian Put option at a given mean spot price 
 /// 

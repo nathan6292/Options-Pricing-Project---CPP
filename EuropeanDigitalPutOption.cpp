@@ -9,6 +9,9 @@ EuropeanDigitalPutOption::EuropeanDigitalPutOption(double expiry, double strike)
 	_type = optionType::Put;
 }
 
+// Destructor for the EuropeanDigitalPutOption class
+EuropeanDigitalPutOption::~EuropeanDigitalPutOption() {}
+
 /// <summary>
 /// Computes the payoff of the European digital put option at a given spot price
 /// </summary>

@@ -11,6 +11,9 @@ public:
 	// Declaration of the constructor with the parameters strike and expiry
 	EuropeanDigitalCallOption(double, double);
 
+	//Destructor
+	~EuropeanDigitalCallOption();
+
 	// Declaration of the overriden function GetOptionType that returns the type of the option (call)
 	optionType GetOptionType() const override;
 	double payoff(double) const;

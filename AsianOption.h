@@ -14,6 +14,9 @@ public :
 	// Declaration of the constructor with the parameter time_steps
 	AsianOption(std::vector<double>);
 
+	//Destructor
+	~AsianOption();
+
 	// Declaration of the overriden function payoffPath that returns the payoff of the option
 	double payoffPath(std::vector<double>&) const override;
 

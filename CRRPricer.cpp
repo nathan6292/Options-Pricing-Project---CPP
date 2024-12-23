@@ -61,6 +61,9 @@ CRRPricer::CRRPricer(Option* option, int depth, double asset_price, double up, d
 	tree_bool.setDepth(depth); // Initialise the depth of the tree_bool
 }
 
+//Destructor
+CRRPricer::~CRRPricer() {}
+
 /// <summary>
 /// Constructor with the parameters option, depth, asset_price, r and volatility
 /// 

@@ -13,6 +13,9 @@ public:
 	//Declaration of the constructor with the parameters strike and expiry
 	EuropeanVanillaOption(double, double);
 
+	//Destructor
+	~EuropeanVanillaOption();
+
 	//Declaration of the pure virtual function GetOptionType, that returns the option type (Call or Put) 
 	//This function is defined in the derived classes
 	virtual optionType GetOptionType() const = 0;	
@@ -22,4 +25,5 @@ public:
 	friend class CallOption;
 	friend class PutOption;
 };
+
 

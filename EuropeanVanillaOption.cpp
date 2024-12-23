@@ -29,3 +29,6 @@ EuropeanVanillaOption::EuropeanVanillaOption(double expiry, double strike) : Opt
 	_strike = strike;
 }
 
+// Destructor for the EuropeanVanillaOption class
+EuropeanVanillaOption::~EuropeanVanillaOption() {}
+

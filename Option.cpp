@@ -6,6 +6,10 @@
 /// <param name="expiry">Expiry of the option</param>
 Option::Option(double expiry) : _expiry(expiry) {}
 
+
+//Destructor for the Option class
+Option::~Option() {}
+
 /// <summary>
 /// returns the expiry of the option
 /// </summary>

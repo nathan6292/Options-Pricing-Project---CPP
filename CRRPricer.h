@@ -14,6 +14,9 @@ public:
 	//Declaration of the constructor with the parameters option, depth, asset_price, up, down, interest_rate
 	CRRPricer(Option*, int, double, double, double);
 
+	//Destructor
+	~CRRPricer();
+
 	//Declaration of the function compute that computes all the values of the tree
 	void compute();
 

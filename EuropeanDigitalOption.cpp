@@ -16,3 +16,6 @@ EuropeanDigitalOption::EuropeanDigitalOption(double expiry, double strike) : Opt
 	_strike = strike;
 }
 
+// Destructor for the EuropeanDigitalOption class
+EuropeanDigitalOption::~EuropeanDigitalOption() {}
+

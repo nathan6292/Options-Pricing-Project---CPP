@@ -22,6 +22,9 @@ public:
 	//Declaration of the constructor with the parameters option, initial_price, interest_rate and volatility
 	BlackScholesMCPricer(Option*, double, double, double);
 
+	//Destructor
+	~BlackScholesMCPricer();
+
 	//Declaration of the function getNbPaths that returns the number of paths
 	int getNbPaths(); 
 

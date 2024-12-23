@@ -9,6 +9,9 @@ AmericanCallOption::AmericanCallOption(double expiry, double strike) : AmericanO
 	_type = optionType::Call;
 }
 
+//Destructor for the AmericanCallOption class
+AmericanCallOption::~AmericanCallOption() {}
+
 /// <summary>
 /// Computes the payoff of the American call optionat a given spot price
 /// 

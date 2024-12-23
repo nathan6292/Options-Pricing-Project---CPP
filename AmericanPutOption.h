@@ -11,6 +11,9 @@ public:
 	// Declaration of the constructor with the parameters strike and expiry
 	AmericanPutOption(double, double);
 
+	// Declaration of the destructor
+	~AmericanPutOption();
+
 	// Declaration of the overriden function payoff that returns the payoff of the option at a given spot price
 	double payoff(double) const override;
 

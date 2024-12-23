@@ -8,6 +8,8 @@ class BlackScholesPricer
 {
 	//Declaration of the private variables _option_vanilla, _option_digital, _asset_price, _interest_rate and _volatility
 private:
+
+	// Pointer to an EuropeanVanillaOption and an EuropeanDigitalOption (only one of them is not nullptr : this is how we know which option we are pricing)
 	EuropeanVanillaOption* _option_vanilla;
 	EuropeanDigitalOption* _option_digital;
 	double _asset_price;
@@ -18,6 +20,9 @@ private:
 public:
 	//Declaration of the constructor with the parameters asset_price, interest_rate and volatility for an EuropeanVanillaOption
 	BlackScholesPricer(EuropeanVanillaOption*, double, double, double);
+
+	//Destructor
+	~BlackScholesPricer();
 
 	//Declaration of the constructor with the parameters asset_price, interest_rate and volatility for an EuropeanDigitalOption
 	BlackScholesPricer(EuropeanDigitalOption*, double, double, double);

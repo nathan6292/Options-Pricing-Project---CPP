@@ -23,6 +23,6 @@ private:
 
 	//Declaration of the private variables generator, uniform_dist and normal_dist
     std::mt19937 generator;                     
-    std::uniform_real_distribution<double> uniform_dist; 
-    std::normal_distribution<double> normal_dist;
+    static std::uniform_real_distribution<double> uniform_dist; 
+    static std::normal_distribution<double> normal_dist;
 };

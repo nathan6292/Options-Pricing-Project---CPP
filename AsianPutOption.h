@@ -12,6 +12,9 @@ public:
 	// Declaration of the constructor with the parameters times and strike
 	AsianPutOption(std::vector<double> times, double strike);
 
+	// Destructor
+	~AsianPutOption();
+
 	// Declaration of the overriden function payoff that returns the payoff of the option
 	double payoff(double spot) const override;
 };

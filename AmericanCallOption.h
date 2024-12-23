@@ -13,6 +13,9 @@ public:
 	// Declaration of the constructor with the parameters strike and expiry
 	AmericanCallOption(double, double);
 
+	//Destructor
+	~AmericanCallOption();
+
 	// Declaration of the function GetOptionType that returns the type of the option
 	optionType GetOptionType() const;
 

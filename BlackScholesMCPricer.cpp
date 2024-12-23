@@ -23,6 +23,9 @@ BlackScholesMCPricer::BlackScholesMCPricer(Option* option, double initial_price,
 	sum_squared = 0;
 }
 
+//Destructor
+BlackScholesMCPricer::~BlackScholesMCPricer() { }
+
 // Returns the number of paths generated
 int BlackScholesMCPricer::getNbPaths() {
 	return npaths; 
