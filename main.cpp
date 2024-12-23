@@ -49,10 +49,15 @@ int main() {
 
 	std::cout << "Tree of the EuropeanDigitalPutOption: " << std::endl << std::endl;
 	CRRPricer put_digital_crr(&put_digital, 5, 100, 0.05, -0.045, 0.01);
-	std::cout << "Price of the EuropeanDigitalCallOption: " << put_digital_crr() << std::endl;
-	std::cout << "Price of the EuropeanDigitalCallOption (closed form): " << put_digital_crr(true) << std::endl << std::endl;
+	std::cout << "Price of the EuropeanDigitalPutOption: " << put_digital_crr() << std::endl;
+	std::cout << "Price of the EuropeanDigitalPutOption (closed form): " << put_digital_crr(true) << std::endl << std::endl;
 
-	std::vector<double> path = { 1, 2, 3, 4, 5};
+    std::vector<double> path;
+    // Remplir le vecteur avec les valeurs de 1 à 50
+    for (double i = 0; i < 5; i=i+0.1) {
+        path.push_back(i);
+    }
+    std::cout << path.size();
 	AsianCallOption asian_call(path, 101);
 	AsianPutOption asian_put(path, 101);
 	
@@ -99,31 +104,29 @@ int main() {
     cint = { 0, 1 };
 
 	BlackScholesMCPricer mc_asian_call(&asian_call, 100, 0.01, 0.1);;
-    do {
-        mc_asian_call.generate(1000);
+        mc_asian_call.generate(1000000);
         cint = mc_asian_call.confidenceInterval();
-    } while (cint[1] - cint[0] > 1e-2);
     std::cout << "Price of the AsianCallOption: " << mc_asian_call() << std::endl;
-
+	std::cout << "Confidence interval: [" << cint[0] << ", " << cint[1] << "]" << std::endl;
     //Reset cint to 0 ,1
     cint = { 0, 1 };
 
 	BlackScholesMCPricer mc_asian_put(&asian_put, 100, 0.01, 0.1);
-    do {
-        mc_asian_put.generate(1000);
+        mc_asian_put.generate(1000000);
         cint = mc_asian_put.confidenceInterval();
-    } while (cint[1] - cint[0] > 1e-2);
+
     std::cout << "Price of the AsianPutOption: " << mc_asian_put() << std::endl;
+    std::cout << "Confidence interval: [" << cint[0] << ", " << cint[1] << "]" << std::endl;
     //Reset cint to 0 ,1
     cint = { 0, 1 };
 
 	std::cout << "Pice of AmericanOption using CRR: " << std::endl << std::endl;
 	AmericanCallOption american_call(5, 101);
-	CRRPricer american_call_crr(&american_call, 1000, 100, 0.01, 0.1);
+	CRRPricer american_call_crr(&american_call, 5, 100, 0.05, -0.045, 0.01);
 	std::cout << "Price of the AmericanCallOption: " << american_call_crr() << std::endl;
 
 	AmericanPutOption american_put(5, 101);
-	CRRPricer american_put_crr(&american_put, 1000, 100, 0.01, 0.1);
+	CRRPricer american_put_crr(&american_put, 5, 100, 0.05, -0.045, 0.01);
 	std::cout << "Price of the AmericanPutOption: " << american_put_crr() << std::endl;
 
     std::cout << std::endl << "*********************************************************" << std::endl;
@@ -240,7 +243,7 @@ int main() {
 
     std::cout << std::endl << "Test 2" << std::endl;
 
-    double S0(95.), K(100.), T(0.5), r(0.02), sigma(0.2);
+    double S0(100), K(101), T(5), r(0.01), sigma(0.1);
     std::vector<Option*> opt_ptrs;
     opt_ptrs.push_back(new CallOption(T, K));
     opt_ptrs.push_back(new PutOption(T, K));
@@ -248,7 +251,7 @@ int main() {
     opt_ptrs.push_back(new EuropeanDigitalPutOption(T, K));
 
     std::vector<double> fixing_dates;
-    for (int i = 1; i <= 5; i++) {
+    for (int i = 1; i <= 50; i++) {
         fixing_dates.push_back(0.1 * i);
     }
     opt_ptrs.push_back(new AsianCallOption(fixing_dates, K));
@@ -261,7 +264,7 @@ int main() {
    for (auto& opt_ptr : opt_ptrs) {
         pricer = new BlackScholesMCPricer(opt_ptr, S0, r, sigma);
         do {
-            pricer->generate(100);
+            pricer->generate(10000);
             ci = pricer->confidenceInterval();
         } while (ci[1] - ci[0] > 1e-2);
         std::cout << "nb samples: " << pricer->getNbPaths() << std::endl;

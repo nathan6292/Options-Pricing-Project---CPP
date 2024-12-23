@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\optionType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:optionType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CRRPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:CRRPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AsianOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:BlackScholesMCPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianCallOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AsianCallOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AsianPutOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AsianOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianCallOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AsianCallOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AsianOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:Option.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\MT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:MT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\MT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:MT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:BlackScholesPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CRRPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:CRRPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:EuropeanDigitalCallOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:EuropeanDigitalOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:BlackScholesPricer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,12 +71,16 @@
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AmericanOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AmericanPutOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AmericanOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\MT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:MT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AsianPutOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AmericanPutOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanCallOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -47,20 +91,8 @@
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AmericanCallOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AmericanOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AmericanPutOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianCallOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AsianCallOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:AsianOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CallOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -73,14 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:EuropeanDigitalCallOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:EuropeanDigitalCallOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:EuropeanDigitalOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -103,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:Option.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\optionType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:optionType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\PutOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:PutOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -115,32 +135,12 @@
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:PutOption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:Option.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:BlackScholesMCPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:BlackScholesPricer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanVanillaOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:EuropeanVanillaOption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:BlackScholesMCPricer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:BlackScholesPricer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\MT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|solutionrelative:MT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C592BAB7-6282-480A-B61D-8526746BD09E}|C\u002B\u002B Project.vcxproj|C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CRRPricer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -165,21 +165,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAN8AAAAAAAAAAAAqwAIBAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-18T12:06:08.497Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -206,21 +205,69 @@
               "Name": "ST:8:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AsianPutOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.cpp",
-              "RelativeDocumentMoniker": "AsianPutOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.cpp",
-              "RelativeToolTip": "AsianPutOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BlackScholesMCPricer.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.cpp",
+              "RelativeDocumentMoniker": "BlackScholesMCPricer.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.cpp",
+              "RelativeToolTip": "BlackScholesMCPricer.cpp",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAHoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T13:38:17.856Z",
+              "WhenOpened": "2024-11-09T16:35:36.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Option.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.cpp",
+              "RelativeDocumentMoniker": "Option.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.cpp",
+              "RelativeToolTip": "Option.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T12:14:38.052Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AsianOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.cpp",
+              "RelativeDocumentMoniker": "AsianOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.cpp",
+              "RelativeToolTip": "AsianOption.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwC8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T13:12:13.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AsianCallOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianCallOption.h",
+              "RelativeDocumentMoniker": "AsianCallOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianCallOption.h",
+              "RelativeToolTip": "AsianCallOption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-09T13:32:53.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AsianCallOption.cpp",
               "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianCallOption.cpp",
               "RelativeDocumentMoniker": "AsianCallOption.cpp",
@@ -228,298 +275,23 @@
               "RelativeToolTip": "AsianCallOption.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T13:34:54.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AmericanOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.cpp",
-              "RelativeDocumentMoniker": "AmericanOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.cpp",
-              "RelativeToolTip": "AmericanOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-10T19:18:08.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T13:34:54.48Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AmericanOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.h",
-              "RelativeDocumentMoniker": "AmericanOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.h",
-              "RelativeToolTip": "AmericanOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T19:17:13.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AmericanPutOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.cpp",
-              "RelativeDocumentMoniker": "AmericanPutOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.cpp",
-              "RelativeToolTip": "AmericanPutOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-10T21:43:57.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AsianOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.cpp",
-              "RelativeDocumentMoniker": "AsianOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.cpp",
-              "RelativeToolTip": "AsianOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T13:12:13.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CRRPricer.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CRRPricer.cpp",
-              "RelativeDocumentMoniker": "CRRPricer.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CRRPricer.cpp",
-              "RelativeToolTip": "CRRPricer.cpp",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-24T11:08:03.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AsianPutOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.h",
-              "RelativeDocumentMoniker": "AsianPutOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.h",
-              "RelativeToolTip": "AsianPutOption.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T13:37:35.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AmericanCallOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanCallOption.cpp",
-              "RelativeDocumentMoniker": "AmericanCallOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanCallOption.cpp",
-              "RelativeToolTip": "AmericanCallOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-10T19:25:34.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AmericanCallOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanCallOption.h",
-              "RelativeDocumentMoniker": "AmericanCallOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanCallOption.h",
-              "RelativeToolTip": "AmericanCallOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T19:25:37.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MT.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\MT.h",
-              "RelativeDocumentMoniker": "MT.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\MT.h",
-              "RelativeToolTip": "MT.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T14:22:33.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AmericanPutOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.h",
-              "RelativeDocumentMoniker": "AmericanPutOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.h",
-              "RelativeToolTip": "AmericanPutOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-21T20:10:38.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AsianCallOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianCallOption.h",
-              "RelativeDocumentMoniker": "AsianCallOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianCallOption.h",
-              "RelativeToolTip": "AsianCallOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T13:32:53.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "AsianOption.h",
               "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.h",
               "RelativeDocumentMoniker": "AsianOption.h",
               "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianOption.h",
               "RelativeToolTip": "AsianOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T13:09:29.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T13:09:29.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CallOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CallOption.cpp",
-              "RelativeDocumentMoniker": "CallOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CallOption.cpp",
-              "RelativeToolTip": "CallOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-18T12:40:50.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CallOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CallOption.h",
-              "RelativeDocumentMoniker": "CallOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CallOption.h",
-              "RelativeToolTip": "CallOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-18T12:37:37.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EuropeanDigitalCallOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.cpp",
-              "RelativeDocumentMoniker": "EuropeanDigitalCallOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.cpp",
-              "RelativeToolTip": "EuropeanDigitalCallOption.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T11:30:56.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "EuropeanDigitalCallOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.h",
-              "RelativeDocumentMoniker": "EuropeanDigitalCallOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.h",
-              "RelativeToolTip": "EuropeanDigitalCallOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T11:28:20.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EuropeanDigitalOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.cpp",
-              "RelativeDocumentMoniker": "EuropeanDigitalOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.cpp",
-              "RelativeToolTip": "EuropeanDigitalOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T10:35:09.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EuropeanDigitalOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.h",
-              "RelativeDocumentMoniker": "EuropeanDigitalOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.h",
-              "RelativeToolTip": "EuropeanDigitalOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T10:32:09.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EuropeanDigitalPutOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalPutOption.cpp",
-              "RelativeDocumentMoniker": "EuropeanDigitalPutOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalPutOption.cpp",
-              "RelativeToolTip": "EuropeanDigitalPutOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T11:34:39.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "EuropeanDigitalPutOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalPutOption.h",
-              "RelativeDocumentMoniker": "EuropeanDigitalPutOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalPutOption.h",
-              "RelativeToolTip": "EuropeanDigitalPutOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T11:33:55.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EuropeanVanillaOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanVanillaOption.h",
-              "RelativeDocumentMoniker": "EuropeanVanillaOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanVanillaOption.h",
-              "RelativeToolTip": "EuropeanVanillaOption.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-18T12:16:21.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Option.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.h",
-              "RelativeDocumentMoniker": "Option.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.h",
-              "RelativeToolTip": "Option.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-18T12:06:58.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 0,
               "Title": "optionType.h",
               "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\optionType.h",
               "RelativeDocumentMoniker": "optionType.h",
@@ -532,123 +304,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PutOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\PutOption.cpp",
-              "RelativeDocumentMoniker": "PutOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\PutOption.cpp",
-              "RelativeToolTip": "PutOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-07T17:23:04.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "PutOption.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\PutOption.h",
-              "RelativeDocumentMoniker": "PutOption.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\PutOption.h",
-              "RelativeToolTip": "PutOption.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "EuropeanDigitalCallOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.h",
+              "RelativeDocumentMoniker": "EuropeanDigitalCallOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.h",
+              "RelativeToolTip": "EuropeanDigitalCallOption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-18T12:37:55.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T11:28:20.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Option.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.cpp",
-              "RelativeDocumentMoniker": "Option.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.cpp",
-              "RelativeToolTip": "Option.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "EuropeanDigitalOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.cpp",
+              "RelativeDocumentMoniker": "EuropeanDigitalOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.cpp",
+              "RelativeToolTip": "EuropeanDigitalOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-18T12:14:38.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T10:35:09.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BlackScholesMCPricer.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.cpp",
-              "RelativeDocumentMoniker": "BlackScholesMCPricer.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.cpp",
-              "RelativeToolTip": "BlackScholesMCPricer.cpp",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T16:35:36.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "BlackScholesPricer.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.cpp",
-              "RelativeDocumentMoniker": "BlackScholesPricer.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.cpp",
-              "RelativeToolTip": "BlackScholesPricer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-18T13:32:11.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "EuropeanVanillaOption.cpp",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanVanillaOption.cpp",
-              "RelativeDocumentMoniker": "EuropeanVanillaOption.cpp",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanVanillaOption.cpp",
-              "RelativeToolTip": "EuropeanVanillaOption.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-18T12:18:51.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "BlackScholesMCPricer.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.h",
-              "RelativeDocumentMoniker": "BlackScholesMCPricer.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.h",
-              "RelativeToolTip": "BlackScholesMCPricer.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MT.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\MT.h",
+              "RelativeDocumentMoniker": "MT.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\MT.h",
+              "RelativeToolTip": "MT.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T14:42:13.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
+              "WhenOpened": "2024-11-09T14:22:33.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "BlackScholesPricer.h",
-              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.h",
-              "RelativeDocumentMoniker": "BlackScholesPricer.h",
-              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.h",
-              "RelativeToolTip": "BlackScholesPricer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-18T13:30:52.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{34c7837f-3b3a-449c-bdf0-bdad86cbaf4a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 8,
               "Title": "MT.cpp",
               "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\MT.cpp",
               "RelativeDocumentMoniker": "MT.cpp",
@@ -656,8 +348,283 @@
               "RelativeToolTip": "MT.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-09T14:29:10.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T14:29:10.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlackScholesPricer.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.cpp",
+              "RelativeDocumentMoniker": "BlackScholesPricer.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.cpp",
+              "RelativeToolTip": "BlackScholesPricer.cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T13:32:11.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlackScholesPricer.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.h",
+              "RelativeDocumentMoniker": "BlackScholesPricer.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesPricer.h",
+              "RelativeToolTip": "BlackScholesPricer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-18T13:30:52.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CRRPricer.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CRRPricer.cpp",
+              "RelativeDocumentMoniker": "CRRPricer.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CRRPricer.cpp",
+              "RelativeToolTip": "CRRPricer.cpp",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-24T11:08:03.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AmericanOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.h",
+              "RelativeDocumentMoniker": "AmericanOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.h",
+              "RelativeToolTip": "AmericanOption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T19:17:13.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AsianPutOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.cpp",
+              "RelativeDocumentMoniker": "AsianPutOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.cpp",
+              "RelativeToolTip": "AsianPutOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T13:38:17.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AmericanOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.cpp",
+              "RelativeDocumentMoniker": "AmericanOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanOption.cpp",
+              "RelativeToolTip": "AmericanOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T19:18:08.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AmericanPutOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.cpp",
+              "RelativeDocumentMoniker": "AmericanPutOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.cpp",
+              "RelativeToolTip": "AmericanPutOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T21:43:57.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AsianPutOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.h",
+              "RelativeDocumentMoniker": "AsianPutOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AsianPutOption.h",
+              "RelativeToolTip": "AsianPutOption.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-09T13:37:35.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AmericanCallOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanCallOption.cpp",
+              "RelativeDocumentMoniker": "AmericanCallOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanCallOption.cpp",
+              "RelativeToolTip": "AmericanCallOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T19:25:34.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AmericanCallOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanCallOption.h",
+              "RelativeDocumentMoniker": "AmericanCallOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanCallOption.h",
+              "RelativeToolTip": "AmericanCallOption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-10T19:25:37.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AmericanPutOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.h",
+              "RelativeDocumentMoniker": "AmericanPutOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\AmericanPutOption.h",
+              "RelativeToolTip": "AmericanPutOption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T20:10:38.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CallOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CallOption.cpp",
+              "RelativeDocumentMoniker": "CallOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CallOption.cpp",
+              "RelativeToolTip": "CallOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T12:40:50.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CallOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CallOption.h",
+              "RelativeDocumentMoniker": "CallOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\CallOption.h",
+              "RelativeToolTip": "CallOption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-18T12:37:37.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EuropeanDigitalCallOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.cpp",
+              "RelativeDocumentMoniker": "EuropeanDigitalCallOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalCallOption.cpp",
+              "RelativeToolTip": "EuropeanDigitalCallOption.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwBIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T11:30:56.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EuropeanDigitalOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.h",
+              "RelativeDocumentMoniker": "EuropeanDigitalOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalOption.h",
+              "RelativeToolTip": "EuropeanDigitalOption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-09T10:32:09.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EuropeanDigitalPutOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalPutOption.cpp",
+              "RelativeDocumentMoniker": "EuropeanDigitalPutOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalPutOption.cpp",
+              "RelativeToolTip": "EuropeanDigitalPutOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-09T11:34:39.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EuropeanDigitalPutOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalPutOption.h",
+              "RelativeDocumentMoniker": "EuropeanDigitalPutOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanDigitalPutOption.h",
+              "RelativeToolTip": "EuropeanDigitalPutOption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-09T11:33:55.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EuropeanVanillaOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanVanillaOption.h",
+              "RelativeDocumentMoniker": "EuropeanVanillaOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanVanillaOption.h",
+              "RelativeToolTip": "EuropeanVanillaOption.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-18T12:16:21.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Option.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.h",
+              "RelativeDocumentMoniker": "Option.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\Option.h",
+              "RelativeToolTip": "Option.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-18T12:06:58.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PutOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\PutOption.cpp",
+              "RelativeDocumentMoniker": "PutOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\PutOption.cpp",
+              "RelativeToolTip": "PutOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-07T17:23:04.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PutOption.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\PutOption.h",
+              "RelativeDocumentMoniker": "PutOption.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\PutOption.h",
+              "RelativeToolTip": "PutOption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-18T12:37:55.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EuropeanVanillaOption.cpp",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanVanillaOption.cpp",
+              "RelativeDocumentMoniker": "EuropeanVanillaOption.cpp",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\EuropeanVanillaOption.cpp",
+              "RelativeToolTip": "EuropeanVanillaOption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-18T12:18:51.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BlackScholesMCPricer.h",
+              "DocumentMoniker": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.h",
+              "RelativeDocumentMoniker": "BlackScholesMCPricer.h",
+              "ToolTip": "C:\\Users\\Nathan\\OneDrive\\ESILV\\6. C\u002B\u002B for finance\\C\u002B\u002B Project\\BlackScholesMCPricer.h",
+              "RelativeToolTip": "BlackScholesMCPricer.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwBkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-09T14:42:13.776Z"
             },
             {
               "$type": "Document",

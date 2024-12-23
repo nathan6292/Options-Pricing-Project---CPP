@@ -61,7 +61,7 @@ void BlackScholesMCPricer::generate(int nb_paths) {
 			path[0] = _initial_price;
 
 			// Initialize a temporary variable to store the last price generated in the path
-			double last = _initial_price;
+			double price = _initial_price;
 
 			//Generate the prices of the asset at each time step
 			for (int j = 1; j < time_steps.size(); j++) {
@@ -75,14 +75,11 @@ void BlackScholesMCPricer::generate(int nb_paths) {
 				double diffusion = _volatility * std::sqrt(dt) * MT::rand_norm();
 
 				// Generate the price of the asset at time step 
-				double price = last * std::exp(drift + diffusion);
+				price *=std::exp(drift + diffusion);
 				// Store the price in the path vector
 				path[j] = price;
-				// Update the last price generated
-				last = price;
 			}
 		
-
 			// Compute the payoff of the Asian option with the path generated
 			double pay = (*option).payoffPath(path)*discount_factor;
 
@@ -100,11 +97,11 @@ void BlackScholesMCPricer::generate(int nb_paths) {
 		// Generate nb_paths prices of the asset (we don't need to store the paths because we only need the price of the option at maturity)
 			for (int i = 0; i < nb_paths; i++) {
 				// Generate the price of the asset at maturity
-				double pay = (*_option).payoff(_initial_price * std::exp((_interest_rate - (_volatility * _volatility) / 2) * ((*_option).getExpiry()) + _volatility * std::sqrt((*_option).getExpiry()) * MT::rand_norm()));
+				double pay = discount_factor*(*_option).payoff(_initial_price * std::exp((_interest_rate - (_volatility * _volatility) / 2) * ((*_option).getExpiry()) + _volatility * std::sqrt((*_option).getExpiry()) * MT::rand_norm()));
 
 				// Update the sum of the payoffs and the sum of the squared payoffs
-				sum += pay*discount_factor;
-				sum_squared += pay * pay * discount_factor * discount_factor;
+				sum += pay;
+				sum_squared += pay * pay;
 
 				// Increment the number of paths generated
 				npaths++;

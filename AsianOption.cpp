@@ -29,6 +29,10 @@ AsianOption::AsianOption(std::vector<double> times) : Option(times[times.size() 
 /// The payoff of the Asian option is the payoff of a basic option with the price being the average of the spots at different times
 /// 
 /// The function payoff is defined in the derived classes call and put
+/// 
+/// We decided to use the address of the vector of spots to avoid copying the vector at each call of the function (performance reasons: we gain 40% of time)
+/// 
+/// The const keywork ensures that the vector of spots is not modified in the function
 /// </summary>
 /// <param name="spots">Vectors with spots prices at different times</param>
 /// <returns>Price of the Asian Option</returns>

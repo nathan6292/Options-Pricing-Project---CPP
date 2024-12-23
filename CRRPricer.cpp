@@ -116,7 +116,7 @@ CRRPricer::CRRPricer(Option* option, int depth, double asset_price, double r, do
 void CRRPricer::compute() {
 	// Initialise values at expiry level N
 	for (int i = 0; i <= depth; ++i) {
-		double final_price = asset_price * std::pow(1 + up, i) * std::pow(1 + down, depth - i); //we simply use the formula S(N,i)=S0*U^i*D^(N-i)
+		double final_price = asset_price * power(1 + up, i) * power(1 + down, depth - i); //we simply use the formula S(N,i)=S0*U^i*D^(N-i)
 		tree.setNode(depth, i, option->payoff(final_price));
 		tree_bool.setNode(depth, i, true); // On expiry, we have no choice to exercise the option
 	}
